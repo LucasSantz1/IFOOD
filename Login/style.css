@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #fdedee;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iconeifood {
+  position: absolute;
+  height: 43px;
+  width: 83px;
+  top: 50px;
+  left: 50px;
+}
+
+.background-img {
+  width: 450px;
+  height: 450px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.box-login {
+  background-color: #fff;
+  height: 460px;
+  width: 500px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 60px 50px 50px 150px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+}
+
+h1 {
+  font-size: 40px;
+  color: #414143;
+  margin: 60px 0px 0px 0px;
+  word-spacing: 0px;
+}
+
+h2 {
+  color: #717171;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.facebook {
+  background-color: #007aff;
+  height: 50px;
+  width: 380px;
+  border-radius: 12px;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.facebookhover {
+  background-color: white; /* Nova cor ao passar o mouse sobre o botão */
+}
+
+.google {
+  background-color: #fff;
+  height: 40px;
+  width: 370px;
+  border: 1px solid #dcdcdc;
+  margin-top: 7.5px;
+  border-radius: 12px;
+}
+
+.celular {
+  background-color: #fff;
+  height: 50px;
+  width: 160px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  color: #a6a6a6;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.celular:hover {
+  background-color: #EA1D2D; /* Nova cor ao passar o mouse sobre o botão */
+}
+
+.email {
+  background-color: #fff;
+  height: 50px;
+  width: 160px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  color: #a6a6a6;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.email:hover {
+  background-color: #EA1D2D; /* Nova cor ao passar o mouse sobre o botão */
+}
